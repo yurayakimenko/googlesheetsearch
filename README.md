@@ -46,9 +46,9 @@ The built-in search allows to immediately add a query that hadn't given any resu
 
 ![](https://i.imgur.com/ag0nGUN.gif)
 
-Если содержимое таблиц поменяется, бот узнает об этом (для примера он проверяет один раз в 30 секунд) и сообщит пользователю. Поэтому не нужно беспокоиться и самостоятельно проверять все интересующие запросы. Каждый запрос присылается отдельным сообщением, дабы проще было найти интересующий пункт.
+Если содержимое таблиц поменяется, бот узнает об этом (для примера он проверяет один раз в 30 секунд) и сообщит пользователю. Поэтому не нужно беспокоиться и самостоятельно проверять все интересующие запросы. Каждый запрос присылается отдельным сообщением, дабы проще было найти интересующий пункт. Боту можно также написать непосредственно поисковый запрос и он выдаст все совпадения аналогичным образом.
 
-If the content of the tables changed, the bot will know about this (for example, it checks once every 30 seconds) and informs the user. Therefore, you do not have to worry and independently check all the queries you are interested in. Each request is sent by a separate message, so it's easier to find the item of interest.
+If the content of the tables changed, the bot will know about this (for example, it checks once every 30 seconds) and informs the user. Therefore, you do not have to worry and independently check all the queries you are interested in. Each request is sent by a separate message, so it's easier to find the item of interest. You can also write a search query directly to bot and it will return all matches in a similar way.
 
 ![](https://i.imgur.com/0TD1I2e.gif)
 
