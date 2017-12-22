@@ -54,7 +54,7 @@ If the content of the tables changed, the bot will know about this (for example,
 
 Для индексирования по таблицам необходимы [учётные данные OAuth](http://gspread.readthedocs.io/en/latest/oauth2.html). Таким образом можно получить сервисный адрес электронной почты, который обязательно нужно добавить в разрешённые адреса тех таблиц, по которым будет осуществляться поиск.
 
-For table indexing, you need [OAuth credentials] (http://gspread.readthedocs.io/en/latest/oauth2.html). Thus, you can get a service e-mail address, which should be added to the allowed addresses of those tables, which will be searched.
+For table indexing, you need [OAuth credentials](http://gspread.readthedocs.io/en/latest/oauth2.html). Thus, you can get a service e-mail address, which should be added to the allowed addresses of those tables, which will be searched.
 
 ## Сделано с помощью | Built with
 * [gspread](https://github.com/burnash/gspread) - API для общения с Google Spreadsheet.
