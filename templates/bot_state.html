@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block title %}Панель управления | {{session.username}}{% endblock %}
+{% block body %}
+  <h1>Состояние Телеграм-бота <small>{{session.username}}</small></h1>
+  <hr>
+  <form action="/add_bot" method="POST">
+    <div class="form-group">
+      <input type="text" name="add_bot" class="form-control" value={{request.form.add_bot}}>
+    </div>
+    <p><input type="submit" class="btn btn-success" value="Изменить токен"></p>
+  </form>
+  <hr>
+{% endblock %}

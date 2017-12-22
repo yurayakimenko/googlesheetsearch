@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "goods-spreadsheets-seacher",
+  "private_key_id": "993f6526e2df6da4a9245ea069d71a25fdf41800",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDK5vq5PYXUS7nR\ngcIleRVI80wDRepwGLqkzF0UjEdhMQBOMRVRCCdUNUg8tTVLJ3BW0xae2t+wUOo8\n+Tjkuax0/QBVGh4S82DPQfIcd/XQ0a44Lt/LRABzLdWOU3OQG9C/BNYgZNo/HBAe\nlc6v5Amijztzo1p07HIEoTElFtYSHFHxbMCrsegCOQ34bJ6j+LQvX3MkdzGnW60U\n00PlzfCEglclNt/YPOSnSlooT7WRWIFoRgfTf77+LaQEwiHOrI6BhXV8zf0gtrB3\n7vIN0cmEGU5CevlVrVRFDxLGhVFE8837QmIQb+wjaHnWLQlT+KmClb03mnSsw4FM\n7h3J87gHAgMBAAECggEABzT0rndNjwCj+GZ4FrKm6EqgzMD2Y1+z4wsE1Cg2mAoq\nIGmrGY/rlBi5MlOeMZQuCYRBgNT1x9Wn7EO1GwXi5twRrFqOiBr8hkzcvgwfJaw8\n8iJTSqBlguUCEwyw+LgBAYS5Dx9/hpxT9wu+v3Q4r2Op0SEToz5YWNFZsh9a7S7j\noozeWFg9ikAjKg2rk7UAVa+4ulfOaBfqRADdwq9y+q7RRsQo9GgRR7hxWPTteMTM\naSokktoNk5hv8f0kWCZuaQq+BepLWR/h34+xFJ+uLNGgLL1avfQXQm1YZ+eqFmy4\niYzFWqM66CvWFkxia6L5Sx7+YiapwtLltoPO5yngWQKBgQD/ZuvYGeAjY/Bzkf8H\nJUzpKLVSlZ3v5b/mlzl0Mi/MLQtSxtYICSGlVMab0eAyG4NLyJDCBe9rBrpljYMn\nxmF5zQEZzy34BmOK+OznDIjVXAmTsfQ2bp/5WeTtKEOx15gHf/dKQ8rPY5urL84S\nlUsaFiS4kEbkdoKYMxFWQLETtQKBgQDLYJd3AgSAUFMjGaPDHQmehT1cOS9wWk53\npb/M+sVDlQHgRtFP7W9kCIgoMyAWHMoPbC3KR5E0Zf7f+OtFYI/dF/vT8M6Tj/6p\n8gB0ahh0cUhjfXbqe1Ekcitlo+EcBOc6V/UaXzMTAVn2/vWBtQA0Bhxvk9Vue+fF\njkTKuoJqSwKBgQC8M3ZVPvQIgCt+rjW0aUscgQ/kdDX2wmE/pW4D7ruEBClU7Qpo\nz3nIoAjeZ7CCm/2LSZdKMh9zyXhvPvFHzQqlO2i1QRMJsoOFs9q2g2kNeA3ilP51\nYd1mXFSyYbpIgasY07ZBNmVrn2Xlpot+7B50cZ7Llh13WtDvIKqE2ZTjBQKBgQCZ\nQooBwcB4nY95FPpGr5wvHEM4O1PXfAZDveFC6/s5yZFnXJahf9EAdjl86cIVR86x\nPplnJPV0oiQmziMl3fWr7EX22jIiG1IS6W6US9tv7GpbpxG09AcayvqPFqcuATfq\nzJvFKtaHTO5p5opGG4syqSRGpQYiwzbOtj5684AR7wKBgBfJqkJeRlua4etPKype\ngexWLrHa0/mWXvGFQ5hcN4nLJ1yyjl7QbCZ4AaBK7+pHIM7bS+G3LrT73szECe5e\nmnrHGIh5QfSucZbil8Lymy1i8RM7E0zlD3eowqpsLIPbFi0QkqQ9nZZNtRguuBci\nRtv35GNwyLSTUJ5JE8jNHube\n-----END PRIVATE KEY-----\n",
+  "client_email": "goods-spreadsheets-search@goods-spreadsheets-seacher.iam.gserviceaccount.com",
+  "client_id": "116701622736965618609",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/goods-spreadsheets-search%40goods-spreadsheets-seacher.iam.gserviceaccount.com"
+}

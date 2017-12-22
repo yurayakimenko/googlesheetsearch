@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+{% block title %}Добавить продукт{% endblock %}
+{% block body %}
+  <h1>Добавить поставщика</h1>
+  {% from "includes/_formhelpers.html" import render_field %}
+  <form action="" method="POST">
+    <div class="form-group">
+      <label>Имя поставщика</label>
+      <input type="text" name="name" class="form-control" value={{request.form.name}}>
+    </div>
+    <div class="form-group">
+      <label>Название таблицы Google</label>
+      <input type="text" name="tablename" class="form-control" value={{request.form.tablename}}>
+    </div>
+    <p><input type="submit" class="btn btn-success" value="Добавить"></p>
+  </form>
+{% endblock %}

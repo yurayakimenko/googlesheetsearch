@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+{% block title %}Поиск | {{session.username}}{% endblock %}
+{% block body %}
+  <h1>Поиск</h1>
+  <hr>
+  <form action="" method="POST">
+    <div class="form-group">
+      <input type="text" name="search" class="form-control" value={{request.form.search}}>
+    </div>
+    <p><input type="submit" class="btn btn-primary" value="Поиск"></p>
+  </form>
+  <hr>
+  {% if products|length == 0 and request.method == 'POST' %}
+  <form id="add_search" action="{{url_for('add_search_by', id=request.form['search'])}}" method="post">
+    <p>Ничего не найдено. <a href="javascript:{}" onclick="document.getElementById('add_search').submit();">Добавить '{{request.form['search']}}' в поисковые запросы</a>?</p>
+  </form>
+  <hr>
+  {% endif %}
+  <table class="table table-striped">
+    {% for product in products %}
+      <tr>
+        <td></td>
+        {% for i in range(0, product|length) %}
+          <td>{{product[i]}}</td>
+        {% endfor %}
+        <td></td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock %}

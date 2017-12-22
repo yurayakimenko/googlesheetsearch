@@ -1,0 +1,9 @@
+flask
+oauth2client
+gspread
+passlib
+wtforms
+flask_mysqldb
+aiotg
+pymysql
+configparser

@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+{% block title %}Панель управления | {{session.username}}{% endblock %}
+{% block body %}
+  <h1>Активные поисковые запросы <small>{{session.username}}</small></h1>
+  <hr>
+  <form action="" method="POST">
+    <div class="form-group">
+      <input type="text" name="add_search" class="form-control" value={{request.form.add_search}}>
+    </div>
+    <p><input type="submit" class="btn btn-success" value="Добавить"></p>
+  </form>
+  <hr>
+  <table class="table table-striped">
+    <tr>
+      <th></th>
+      <th>Поисковый запрос</th>
+      <th></th>
+      <th></th>
+      <th>Действия</th>
+    </tr>
+    {% for checkitem in checklist %}
+      <tr>
+        <td></td>
+        <td>{{checkitem.searchrequest}}</td>
+        <td></td>
+        <td></td>
+        <td>
+          <form action="{{url_for('delete_search', id=checkitem.id)}}" method="post">
+            <input type="hidden" name="_method" value="DELETE">
+            <input type="submit" value="Удалить" class="btn btn-danger">
+          </form>
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock %}

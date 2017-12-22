@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block title %}Приват{% endblock %}
+{% block body %}
+  <div class="jumbotron text-center">
+    <h1 id = "heading">Приват CRM</h1>
+    <p class="lead">Проект, позволяющий дропшипперам (удалённым розничным продавцам) быстро узнавать наличие товара у любого количества поставщиков через доступные онлайн Google Таблицы. Доступна функция уведомления по отслеживаемым поисковым фразам с помощью Telegram-бота.</p>
+    {% if session.logged_in == NULL %}
+      <a onclick = "register_Click()" class="btn btn-primary btn-lg">Регестрация</a>
+      <a href="/login" class="btn btn-success btn-lg">Вход</a>
+    {% endif %}
+  </div>
+{% endblock %}
